@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted } from "vue";
 import { useRouter } from "vue-router";
-import { useMetricsStore } from "@/stores/metric";
+import { useMetricsStore } from "@/stores/metrics";
 
 const router = useRouter();
 const metricsStore = useMetricsStore();
