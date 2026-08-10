@@ -8,6 +8,7 @@
  * @module
  */
 
+import type * as event from "../event.js";
 import type * as metrics from "../metrics.js";
 import type * as user from "../user.js";
 
@@ -18,6 +19,7 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
+  event: typeof event;
   metrics: typeof metrics;
   user: typeof user;
 }>;
