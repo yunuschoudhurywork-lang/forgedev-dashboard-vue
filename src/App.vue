@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import LoginButton from './components/LoginButton.vue'
+import { RouterView } from "vue-router";
+import LoginButton from "./components/LoginButton.vue";
 </script>
 
 <template>
-  <div>
-    <h1>ERP Portal</h1>
-    <LoginButton />
-  </div>
+  <LoginButton />
+  <RouterView />
 </template>
